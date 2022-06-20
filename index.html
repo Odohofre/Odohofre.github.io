@@ -2,56 +2,183 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Bright Odohofre Portfolio</title>
+    <title>Bright Odohofre</title>
   </head>
   <body>
-      <div class="home" id="home">
-        <header>
-          <h1 class="my-name">Bright O.</h1>
-          <nav>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#works">Works</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
-        <div class="social-links">
+    <!-- Desktop NavBar -->
+    <section id="nav">
+      <div class="nav-bar">
+        <div class="links">
+          <ul>
+            <li><a href="#name" id="name">Bright Odohofre</a></li>
+            <li><a href="#projects" id="project">Projects</a></li>
+            <li><a href="#aboutme" id="about">About</a></li>
+            <li><a href="#contactme" id="contact">Contact</a></li>   
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End of Desktop NavNar -->
 
-				</div>
-        <div class="intro">
-          <div class="intro-text">
-            <p class="big-text">
-              I'm Bright Odohofre, a <br /><strong class="color-text">
-                Website & Mobile App developer</strong
-              >
-            </p>
+    <!-- Mobile NavBar -->
+    <section id="mobile-nav">
+      <div class="mobile-nav-bar">
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#name"><i class="fas fa-home"></i></a>
+            </li>
+            <li>
+              <a href="#projects"><i class="fas fa-folder"></i></a>
+            </li>
+            <li>
+              <a href="#about"><i class="fas fa-user"></i></a>
+            </li>
+            <li>
+              <a href="#contact"><i class="fas fas fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End of Mobile NavBar -->
 
-            <p class="intro-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              mollitia, pariatur ex reiciendis consequatur voluptates doloribus
-              beatae facilis in dignissimos officia magnam aperiam. Quasi
-              nostrum eius enim consectetur. Quam, sequi?
-            </p>
-            <button class="contact">Contact Me</button>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="overlay"></div>
+        <div class="image-container"></div>
+      </div>
+      <div class="hero-text">
+        <h1>
+          <span class="firstWord">Solving</span>
+          <br />Problems & Creating <br />Solutions
+        </h1>
+        <a href="#" class="resume-cta"
+          ><span class="resume-text">Resume</span></a
+        >
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Project Section -->
+    <section id="projects">
+      <div class="project-container">
+        <div class="project-header">Projects</div>
+        <div class="projects">
+          <div class="project-item">
+            <div class="office-project">
+              <div class="text-container">
+                <h2 class="name">Office Website</h2>
+                <div class="content">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Nesciunt aut omnis harum perferendis nihil. Qui quos
+                    sapiente in pariatur, ratione quasi molestias odit illum at,
+                    eligendi optio exercitationem aliquid tempora?
+                  </p>
+                </div>
+                <button class="button">
+                  <a href="#">
+                    <h3>View Project</h3>
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="intro-img">
-            <img class='img' src="./images/IMG_20200525_110525.jpg" alt="my-image" />
+
+          <div class="project-item">
+            <div class="store-project">
+              <div class="text-container">
+                <h2 class="name">Store Website</h2>
+                <div class="content">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Nesciunt aut omnis harum perferendis nihil. Qui quos
+                    sapiente in pariatur, ratione quasi molestias odit illum at,
+                    eligendi optio exercitationem aliquid tempora?
+                  </p>
+                </div>
+                <button class="button">
+                  <a href="#">
+                    <h3>View Project</h3>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="sport-project">
+              <div class="text-container">
+                <h2 class="name">Sport Website</h2>
+                <div class="content">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Nesciunt aut omnis harum perferendis nihil. Qui quos
+                    sapiente in pariatur, ratione quasi molestias odit illum at,
+                    eligendi optio exercitationem aliquid tempora?
+                  </p>
+                </div>
+                <button class="button">
+                  <a href="#">
+                    <h3>View Project</h3>
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="about" id="about">
-				<h3>About me</h3>
-			</div>
-      <div class="services" id="services"></div>
-      <div class="works" id="works"></div>
-      <div class="contact" id="contact"></div>
-      <footer></footer>
+    </section>
+    <!-- End of Project Section-->
+    <!-- About Section -->
+    <section id="aboutme">
+      <div class="about-container">
+        <div class="about-section">
+          <div class="img-container">
+            <div class="about-image"></div>
+          </div>
+          <div class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ipsa officiis magni, tempore eaque fugiat enim sequi incidunt
+            dolorem perferendis obcaecati ipsam numquam provident animi, vel
+            optio cupiditate! Commodi consectetur dolor enim eos et rem,
+            accusantium qui nisi beatae, provident, soluta doloribus.
+            Consequatur facere hic earum labore magni maxime nihil.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->
+    <!-- CONTACT ME -->
+    <section id="contactme">
+      <div class="social-icons">
+        <div class="fb">
+          <a href="https://www.facebook.com/odohofre.bright"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <div class="tw">
+          <a href="https://twitter.com/B_Odohofre"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <div class="gh">
+          <a href="https://github.com/Odohofre"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
-
