@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.github.io)
-- Live Site URL: [Add live site URL here](https://odohofre.github.io/product-preview-component/index.html)
+- Solution URL: [solution URL](https://github.com/Odohofre/product-preview-component)
+- Live Site URL: [live site URL](https://odohofre.github.io/product-preview-component/index.html)
 
 ## My process
 
