@@ -42,5 +42,5 @@ Users should be able to:
 ## Author
 
 - Website - [Bright Odohofre](https://Odohofre.github.io)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Odohofre)
-- Twitter - [@yourusername](https://www.twitter.com/B_Odohofre)
+- Frontend Mentor - [@Odohofre](https://www.frontendmentor.io/profile/Odohofre)
+- Twitter - [@B_Odohofre](https://www.twitter.com/B_Odohofre)
