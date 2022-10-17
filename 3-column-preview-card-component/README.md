@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/Odohofre)
+- Solution URL: [Github repo](https://github.com/Odohofre/3-column-preview-card-component)
 - Live Site URL: [Live site](https://odohofre.github.io/3-column-preview-card-component)
 
 ## My process
