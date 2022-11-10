@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <main class="slideshow-container">
+      <figure class="slides fade">
+        <img src="./images/image-2.jpg" alt="sand dunes near the sea" />
+        <figcaption>sand dunes near the sea</figcaption>
+      </figure>
+      <figure class="slides fade">
+        <img
+          src="./images/image-1.jpg"
+          alt="calm body of lake between mountains"
+        />
+        <figcaption>calm body of lake between mountains</figcaption>
+      </figure>
+      <figure class="slides fade">
+        <img
+          src="./images/image-3.jpg"
+          alt="photo of forest with fog"
+          style="height: 600px"
+        />
+        <figcaption>photo of forest with fog</figcaption>
+      </figure>
+      <figure class="slides fade">
+        <img
+          src="./images/image-4.jpg"
+          alt="cactus plants under the starry sky"
+        />
+        <figcaption>cactus plants under the starry sky</figcaption>
+      </figure>
+      <figure class="slides fade">
+        <img
+          src="./images/image-5.jpg"
+          alt="scenic photo of forest with sunlight"
+        />
+        <figcaption>scenic photo of forest with sunlight</figcaption>
+      </figure>
+      <figure class="slides fade">
+        <img src="./images/image-6.jpg" alt="brown mountains" />
+        <figcaption>brown mountains</figcaption>
+      </figure>
+      <a class="prev" onclick="plusSlides(-1)"
+        ><i class="fa-solid fa-angle-left"></i
+      ></a>
+      <a class="next" onclick="plusSlides(1)"
+        ><i class="fa-solid fa-angle-right"></i
+      ></a>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span
+        ><span class="dot" onclick="currentSlide(2)"></span
+        ><span class="dot" onclick="currentSlide(3)"></span
+        ><span class="dot" onclick="currentSlide(4)"></span
+        ><span class="dot" onclick="currentSlide(5)"></span
+        ><span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
